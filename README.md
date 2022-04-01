@@ -45,5 +45,5 @@ Menabahkan Style pada Form
 Agar tampilan form lebih menarik, bisa ditambahkan CSS
 
 ![Screenshot (70)](https://user-images.githubusercontent.com/101849655/161192290-68c58e58-a160-4c40-9587-035f54327a66.png)
-![Screenshot (71)](https://user-images.githubusercontent.com/101849655/161192296-0624c7b5-117d-40c2-a792-e7b267747f61.png)
+![Screenshot (71)](https://user-images.githubusercontent.com/101849655/161192296-0624c7b5-117d-40c2-a792-e7b267747f61.png) 
 
