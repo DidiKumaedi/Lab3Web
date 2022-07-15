@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan </title>
+<style>
+    form p > label {
+        display: inline-block;
+        width: 100px;
+        height: 20px;
+    }
+    form input[type"text"], form textarea {
+        border: 1px solid #f31515;
+    } 
+    form input [type="submit"] {
+        border: 1px solid #f31515
+        background-color: #f31515;
+        color: #ffffff
+        font-weight: bold;
+        padding: 5px 15px;
+    }
+    form input [type="reset"] {
+        border: 1px solid #f31515;
+        background-color: #f31515;
+        color: #ffffff
+        font-weight: bold;
+        padding: 5px 12px;
+    }
+    
+</style>
+</head>
+<body bgcolor="dcdcdc">
+    <header>
+        <h1>Form Mahasiswa</h1>
+    </header>
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>Data Diri</legend>
+            <p>
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" placeholder="Nama Lengkap"
+            </p>
+            <p>
+                <label for="nomor">No. HP</label>
+                <input type="text" id="nomor" name="nomor" placeholder="08xxxxxxxxx" 
+            </p>
+            <p>
+                <label for="email">E-Mail</label>
+                <input type="text" id="email" name="email" placeholder="Nama@gmail.com"
+            </p>
+            <p>
+                <label>Tanggal Lahir</label>
+                <input type="date" name="tanggal" />
+            </p>
+            <p>
+                <label>Jenis Kelamin</label>
+                <input id="jk_1" type="radio" name="kelamin" value="L" /><label
+            for="jk_1">Laki-laki</label>
+                <input id="jk_p" type="radio" name="kelamin" value="p" /><label
+            for="jk_p">perempuan</label>
+            </p>
+            <p>
+                <label>Agama</label>
+                <select name="Agama">
+                    <option value="Islam"selected="selected">Islam</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="buddha">Buddha</option>
+                    <option value="Katholik">Katholik</option>
+                </select>
+            </p>
+            <P>
+                <label for="alamat">Alamat</label>
+                <textarea id="alamat" name="alamat" placeholder="Alamat Anda" cols="25" rows="4"></textarea>
+            </P>
+            <p>
+                <label>Pilih Jurusan</label>
+                <select name="Pilih Jurusan" size="3">
+                    <option value="TI"selected="selected">Teknik Informatika</option>
+                    <option value="TISIP">Teknik Sipil</option>
+                    <option value="TL">Teknik Lingkungan</option>
+                    <option value="TIND">Teknik Industri</option>
+                </select>
+            </p>
+            <p><input type="submit" name="tombol" value="kirim"</p>
+            <p><input type="reset" name="tombol2" value="Hapus"</p>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
